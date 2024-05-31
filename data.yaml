@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['bird', 'cat', 'dog', 'elephant', 'giraffe', 'meerkat', 'ostrich', 'panda', 'tiger']
+
+roboflow:
+  workspace: gyumin
+  project: dpr_project
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/gyumin/dpr_project/dataset/3
